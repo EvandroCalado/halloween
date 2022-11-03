@@ -32,7 +32,7 @@
   color: #f9f6f0;
   font-size: 32px;
   font-weight: 400;
-  margin: 10px 0;
+  margin: 10px 20px;
 }
 
 .clients-text p {
@@ -40,4 +40,16 @@
   font-size: 20px;
   font-style: italic;
   font-weight: 300;
+}
+
+@media (max-width: 720px) {
+  .clients-logos img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 430px) {
+  .clients-logos img {
+    width: 80px;
+  }
 }

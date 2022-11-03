@@ -4,12 +4,8 @@ const Lists = document.querySelectorAll(".menu-listas a");
 Lists.forEach((list) => {
   list.addEventListener("click", () => {
     const listActive = document.querySelector(".menu-listas a.active");
-    if (listActive === null) {
-      list.classList.add("active");
-    } else {
-      list.classList.add("active");
-      listActive.classList.remove("active");
-    }
+    list.classList.add("active");
+    listActive.classList.remove("active");
   });
 });
 
@@ -95,3 +91,25 @@ function previousSlide() {
 
 // ---------- Slide automático ----------
 setInterval(nextSlide, 3000);
+
+// ---------- Animações ao scroll ----------
+const icons = document.querySelectorAll(".key-features-mosaic i");
+
+function animationIcon() {
+  const windowTop = window.pageYOffset + (window.innerHeight * 3.5) / 4;
+  icons.forEach(function (element) {
+    if (windowTop > element.offsetTop) {
+      element.classList.add("icon");
+      element.style.opacity = "1";
+    } else {
+      element.classList.remove("icon");
+      element.style.opacity = "0";
+    }
+  });
+}
+
+animationIcon();
+
+if (icons.length) {
+  window.addEventListener("scroll", animationIcon);
+}
