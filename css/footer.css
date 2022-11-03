@@ -1,0 +1,140 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-info {
+  width: 60%;
+  padding: 100px 0;
+}
+
+.footer-info-h1 {
+  width: 100%;
+}
+
+.footer-info-h1 h1 {
+  text-align: left;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.footer-info-container {
+  display: flex;
+}
+
+.footer-info-left {
+  flex: 1;
+  padding: 0 40px 0 0;
+}
+
+.footer-info-left p {
+  line-height: 30px;
+  color: #818892;
+  margin-bottom: 30px;
+}
+
+.footer-info-left i {
+  color: #fbb040;
+  font-size: 36px;
+  margin-right: 15px;
+}
+
+.footer-info-right {
+  flex: 1;
+  display: flex;
+}
+
+.footer-info-company {
+  flex: 1;
+}
+
+.footer-info-company h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-info-company ul {
+  list-style: none;
+}
+
+.footer-info-company li {
+  font-family: "Roboto", sans-serif;
+  color: #fbb040;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.footer-info-company li:hover {
+  text-decoration: underline;
+}
+
+.footer-info-features-products {
+  flex: 1;
+}
+
+.footer-info-features-products h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-info-features-products ul {
+  list-style: none;
+}
+
+.footer-info-features-products li {
+  font-family: "Roboto", sans-serif;
+  color: #fbb040;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.footer-info-features-products li::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 2px;
+  border: solid 8px #fbb040;
+  border-radius: 8px;
+}
+
+.footer-info-features-products li::after {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 5px;
+  width: 3px;
+  height: 6px;
+  border: solid #7eb4e2;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.footer-info-features-products li:hover {
+  text-decoration: underline;
+}
+
+.footer-info > p {
+  margin-top: 100px;
+}
+
+.footer-info > p a {
+  text-decoration: none;
+  color: #fbb040;
+}
+
+.footer-info > p a:hover {
+  text-decoration: underline;
+}

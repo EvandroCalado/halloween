@@ -1,0 +1,213 @@
+/* ---------- Key Features Icons */
+.icon1 {
+  animation: icon1 1.5s ease-in-out;
+}
+
+@keyframes icon1 {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(0.9);
+  }
+  45% {
+    transform: scale(1);
+  }
+}
+
+.icon2 {
+  animation: icon2 1.5s ease-in-out;
+}
+
+@keyframes icon2 {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(1);
+  }
+}
+
+.icon3 {
+  animation: icon3 1.5s ease-in-out;
+}
+
+@keyframes icon3 {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(0);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1);
+  }
+}
+
+.icon4 {
+  animation: icon4 1.5s ease-in-out;
+}
+
+@keyframes icon4 {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(0);
+  }
+  45% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  90% {
+    transform: scale(1);
+  }
+}
+
+/* ---------- products Img ---------- */
+.img1 {
+  animation: img1 1.5s ease-in-out;
+}
+
+@keyframes img1 {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(0.9);
+  }
+  45% {
+    transform: scale(1);
+  }
+  55% {
+    transform: scale(0.95);
+  }
+  60% {
+    transform: scale(1);
+  }
+}
+
+.img2 {
+  animation: img2 1.5s ease-in-out;
+}
+
+@keyframes img2 {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(1);
+  }
+  65% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+
+.img3 {
+  animation: img3 1.5s ease-in-out;
+}
+
+@keyframes img3 {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(0);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  85% {
+    transform: scale(1);
+  }
+}
+
+.img4 {
+  animation: img4 1.5s ease-in-out;
+}
+
+@keyframes img4 {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(0);
+  }
+  45% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  90% {
+    transform: scale(1);
+  }
+  95% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
