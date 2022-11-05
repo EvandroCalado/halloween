@@ -93,21 +93,6 @@ header nav .menu .menu-listas ul li {
   position: relative;
 }
 
-/* header nav .menu .menu-listas ul li::after {
-  content: "";
-  height: 3px;
-  width: 0;
-  background-color: #fbb040;
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  transition: all 300ms linear;
-}
-
-header nav .menu .menu-listas ul li:hover::after {
-  width: 100%;
-} */
-
 /* ---------- Nav Menu Media query ---------- */
 @media (max-width: 769px) {
   header nav {
@@ -159,7 +144,7 @@ header nav .menu .menu-listas ul li:hover::after {
   header nav .menu .menu-listas a {
     width: 100%;
     position: relative;
-    left: -200px;
+    left: -400px;
     transition: all 300ms linear;
   }
 

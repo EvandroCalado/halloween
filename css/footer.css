@@ -166,6 +166,7 @@ footer {
   .footer-info-h1 h1 {
     text-align: center;
   }
+
   .footer-info {
     display: flex;
     flex-direction: column;
@@ -175,12 +176,31 @@ footer {
   .footer-info-container {
     flex-direction: column;
   }
+
+  .footer-info-left {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-info-left p {
+    text-align: center;
+  }
+
+  .footer-info-left i {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-info-logo {
+    text-align: center;
+  }
 }
 
 @media (max-width: 650px) {
   .footer-info {
     margin: 0 20px;
   }
+
   .footer-info-company {
     margin-right: 0px;
   }
@@ -188,21 +208,3 @@ footer {
     flex: 1;
   }
 }
-
-/* @media (max-width: 1320px) {
-  .footer-info {
-    width: 80%;
-  }
-}
-
-@media (max-width: 1155px) {
-  .footer-info {
-    width: 90%;
-  }
-}
-
-@media (max-width: 1010px) {
-  .footer-info {
-    width: 100%;
-  }
-} */
