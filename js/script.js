@@ -94,10 +94,11 @@ setInterval(nextSlide, 3000);
 
 // ---------- Animações ao scroll ----------
 const icons = document.querySelectorAll(".key-features-mosaic i");
+console.log(icons[0]);
 
 function animationIcon() {
-  const windowTop = window.pageYOffset + (window.innerHeight * 3.5) / 4;
-  icons.forEach(function (element) {
+  const windowTop = window.pageYOffset + (window.innerHeight * 2.8) / 4;
+  icons.forEach((element) => {
     if (windowTop > element.offsetTop) {
       element.classList.add("icon");
       element.style.opacity = "1";
